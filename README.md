@@ -41,3 +41,12 @@ The five project cards are clickable and open in a new tab:
 - Medical Case Simulator — https://yasminindira.github.io/sistemtubuh/
 - Al Jabar Display — https://yasminindira.github.io/masjidaljabar3/
 - Catur Jawa — https://yasminindira.github.io/caturjawa/
+
+## SEO Files (sudah ditambahkan)
+- `robots.txt` — mengizinkan crawling dan menunjuk ke sitemap
+- `sitemap.xml` — daftar halaman (saat ini hanya homepage)
+- `assets/og-image.jpg` — gambar untuk Open Graph / social sharing (1200×630)
+- Meta tags lengkap + JSON-LD di `index.html`
+- `site.webmanifest` — opsional untuk PWA-like
+
+Setelah deploy ulang ke GitHub Pages + custom domain, ikuti langkah SEO di bawah.
