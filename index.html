@@ -13,6 +13,9 @@
   <meta name="google-site-verification" content="VXFRlfnipt3Vi8HKfKNgkCZ-WrYdmc3LQ7jVYjFxuYk" />
 
   <link rel="canonical" href="https://yssmyn.my.id/">
+  <!-- Preload LCP image -->
+  <link rel="preload" as="image" href="assets/profile.webp" type="image/webp">
+
   
   <!-- Favicon -->
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -89,7 +92,10 @@
       <div class="hero-art reveal">
         <div class="sticker sticker-top">made with ♡</div>
         <div class="profile-photo-card">
-          <img class="profile-photo" src="assets/profile-placeholder.png" alt="Foto profil sementara untuk portfolio Yasmin">
+          <picture>
+          <source srcset="assets/profile.webp" type="image/webp">
+          <img class="profile-photo" src="assets/profile.jpg" alt="Foto profil Yasmin" width="800" height="450" fetchpriority="high">
+        </picture>
           <div class="photo-caption">a little piece of my world ✦</div>
         </div>
         <div class="floating flower">✿</div>
@@ -226,6 +232,6 @@
     <div class="footer-right"><span>© 2026 Yasmin</span><a href="#home">Back to top ↑</a></div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
