@@ -1,237 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Primary SEO -->
-  <title>Yasmin — Creative Portfolio | Student Web Designer & Developer</title>
-  <meta name="description" content="Portfolio kreatif Yasmin, seorang student yang suka membuat website, desain visual, dan proyek digital. Temukan selected works, skills, dan journey-nya di sini.">
-  <meta name="keywords" content="Yasmin portfolio, student portfolio, creative portfolio, web design, HTML CSS JavaScript, UI design, Yasmin Indira">
-  <meta name="author" content="Yasmin">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MYNJU — Cute Looks, Made for You</title>
+  <meta name="description" content="Outfit lucu, stylish, dan effortlessly cool untuk kamu yang ingin tampil jadi versi terbaik dirimu. Temukan koleksi MYNJU yang cute dan personal.">
+  <meta name="keywords" content="outfit lucu, fashion anak muda, cute style, MYNJU, fashion wanita, style effortlessly cool, baju cute">
   <meta name="robots" content="index, follow">
-  <meta name="google-site-verification" content="VXFRlfnipt3Vi8HKfKNgkCZ-WrYdmc3LQ7jVYjFxuYk" />
-
-  <link rel="canonical" href="https://yssmyn.my.id/">
-  <!-- Preload LCP image -->
-  <link rel="preload" as="image" href="assets/profile.webp" type="image/webp">
-
+  <meta name="author" content="MYNJU">
+  <link rel="canonical" href="https://minjuuu.yssmyn.my.id/">
   
   <!-- Favicon -->
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#FF69B4">
   
-  <!-- Open Graph / Facebook -->
+  <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yssmyn.my.id/">
-  <meta property="og:title" content="Yasmin — Creative Portfolio">
-  <meta property="og:description" content="Curious mind, creative heart. Portfolio personal Yasmin — student yang mengeksplorasi teknologi kreatif melalui website, desain, dan proyek digital.">
-  <meta property="og:image" content="https://yssmyn.my.id/assets/og-image.jpg">
+  <meta property="og:url" content="https://minjuuu.yssmyn.my.id/">
+  <meta property="og:title" content="MYNJU — Cute Looks, Made for You">
+  <meta property="og:description" content="Outfit lucu, stylish, dan effortlessly cool untuk kamu yang ingin tampil jadi versi terbaik dirimu.">
+  <meta property="og:image" content="https://minjuuu.yssmyn.my.id/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:site_name" content="Yasmin Portfolio">
+  <meta property="og:site_name" content="MYNJU">
   <meta property="og:locale" content="id_ID">
   
-  <!-- Twitter Card -->
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://yssmyn.my.id/">
-  <meta name="twitter:title" content="Yasmin — Creative Portfolio">
-  <meta name="twitter:description" content="Curious mind, creative heart. Portfolio personal Yasmin — student yang mengeksplorasi teknologi kreatif.">
-  <meta name="twitter:image" content="https://yssmyn.my.id/assets/og-image.jpg">
+  <meta name="twitter:url" content="https://minjuuu.yssmyn.my.id/">
+  <meta name="twitter:title" content="MYNJU — Cute Looks, Made for You">
+  <meta name="twitter:description" content="Outfit lucu, stylish, dan effortlessly cool untuk kamu yang ingin tampil jadi versi terbaik dirimu.">
+  <meta name="twitter:image" content="https://minjuuu.yssmyn.my.id/og-image.jpg">
   
-  <!-- Structured Data (JSON-LD) -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Yasmin",
-    "url": "https://yssmyn.my.id/",
-    "jobTitle": "Creative Student / Web Designer",
-    "description": "Student yang suka membuat website, desain visual, dan proyek digital kreatif.",
+    "@type": "ClothingStore",
+    "name": "MYNJU",
+    "url": "https://minjuuu.yssmyn.my.id/",
+    "description": "Outfit lucu, stylish, dan effortlessly cool untuk kamu yang ingin tampil jadi versi terbaik dirimu.",
+    "image": "https://minjuuu.yssmyn.my.id/og-image.jpg",
     "sameAs": [
-      "https://github.com/yasminindira"
-    ],
-    "image": "https://yssmyn.my.id/assets/og-image.jpg"
+      "https://www.instagram.com/ysmindr.d/"
+    ]
   }
   </script>
   
-  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="manifest" href="/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="cursor-glow"></div>
+<header class="nav">
+  <a class="logo" href="#" id="siteLogo">MYN<span>J</span>U</a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <button class="cart-toggle" id="cartToggle" aria-label="Open shopping bag">
+      <span class="bag-label">BAG</span><span class="bag-dot">·</span><span class="cart-count" id="cartCount">0</span>
+    </button>
+  </nav>
+  <button class="admin-menu-button" id="adminMenuButton" type="button">Admin ♡</button>
+  <button class="wishlist">♡ <b id="count">0</b></button>
+</header>
 
-  <header class="navbar">
-    <a class="brand" href="#home"><span>Y</span> yasmin.</a>
-    <button class="menu-toggle" aria-label="Buka menu"><i></i><i></i></button>
-    <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#works">Works</a>
-      <a href="#skills">Skills</a>
-      <a href="#journey">Journey</a>
-      <a class="nav-cta" href="#contact">Let's talk ↗</a>
-    </nav>
-  </header>
+<section class="hero" id="home">
+  <div>
+    <p class="eyebrow">NEW SEASON • 2026</p>
+    <h1>Dress cute.<br><em>Feel you.</em></h1>
+    <p class="lead">Outfit lucu, stylish, dan effortlessly cool untuk kamu yang ingin tampil jadi versi terbaik dirimu.</p>
+    <div class="actions">
+      <a class="primary" href="#collection">Explore Collection →</a>
+      <a class="secondary" href="#about">Our Story</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="rose-mini-dress.jpg" alt="Rose mini dress cute fashion look MYNJU" loading="eager">
+    <span class="photo-label">MYNJU GIRL</span>
+    <span class="tag">LOOK OF<br><strong>THE DAY</strong></span>
+  </div>
+</section>
 
-  <main>
-    <section id="home" class="hero section">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="dot"></span> HELLO, I'M YASMIN</p>
-        <h1>Curious mind,<br><em>creative</em> heart.</h1>
-        <p class="hero-text">I love turning ideas into digital things that feel useful, fun, and a little bit different.</p>
-        <div class="hero-actions">
-          <a href="#works" class="btn btn-dark">See my works <span>↗</span></a>
-          <a href="#about" class="text-link">Get to know me ↓</a>
-        </div>
+<div class="ticker">
+  <span>♡ CUTE</span><span>✦ CONFIDENT</span><span>♡ EFFORTLESS</span><span>✦ YOUR STYLE</span>
+  <span>♡ CUTE</span><span>✦ CONFIDENT</span><span>♡ EFFORTLESS</span><span>✦ YOUR STYLE</span>
+</div>
+
+<section class="collection" id="collection">
+  <div class="heading">
+    <div><p class="eyebrow">SHOP YOUR STYLE</p><h2>Latest <em>Looks</em></h2></div>
+    <p>Pieces made to mix, match,<br>and make them yours.</p>
+  </div>
+  <div class="filters" id="categoryFilters">
+    <button class="shop-filter active" data-filter="all">All</button>
+    <button class="shop-filter" data-filter="new">New</button>
+    <!-- categories will be added dynamically -->
+  </div>
+  <div class="grid" id="productGrid">
+    <div class="loading">Loading cute looks... ♡</div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div>
+    <p class="eyebrow">WHY MYNJU?</p>
+    <h2>Fashion should feel <em>like you.</em></h2>
+    <p class="lead">MYNJU hadir untuk kamu yang suka bermain dengan warna, style, dan personality. Dari cute sampai effortlessly cool — pilih outfit yang paling menggambarkan kamu.</p>
+    <a class="text" href="#collection">Find your style →</a>
+  </div>
+  <div class="circle">MYNJU<br>♡<small>YOUR STYLE</small></div>
+</section>
+
+<footer>
+  <div>
+    <a class="logo" href="#">MYN<span>J</span>U</a>
+    <p>Cute looks for girls<br>who know their worth.</p>
+  </div>
+  <div class="links">
+    <a href="https://www.instagram.com/ysmindr.d/" target="_blank" rel="noopener">Instagram</a>
+    <a href="#collection">Shop</a>
+    <a href="#about">About</a>
+  </div>
+  <small>© 2026 MYNJU. Made with ♡</small>
+</footer>
+
+<div class="contact-float">
+  <button class="contact-main" id="contactMain" aria-label="Open contact menu" aria-expanded="false">
+    <span class="contact-main-text">CHAT WITH US</span><span class="contact-main-icon">♡</span>
+  </button>
+  <div class="contact-menu" id="contactMenu">
+    <a class="contact-option" href="https://wa.me/6289516258263?text=Halo%20kak%20Dira%20aku%20cek%20di%20website%20kamu%20keren%2C%20mau%20dong%20pesan%20........." target="_blank" rel="noopener">
+      <span class="contact-symbol">WA</span><span><strong>WhatsApp</strong><small>Chat with Dira</small></span>
+    </a>
+    <a class="contact-option" href="https://www.instagram.com/ysmindr.d/" target="_blank" rel="noopener">
+      <span class="contact-symbol">IG</span><span><strong>Instagram</strong><small>@ysmindr.d</small></span>
+    </a>
+  </div>
+</div>
+
+
+<!-- CHECKOUT & PAYMENT -->
+<div class="payment-overlay" id="paymentOverlay" aria-hidden="true">
+  <section class="payment-panel" role="dialog" aria-modal="true" aria-labelledby="paymentTitle">
+    <div class="payment-head"><div><p class="eyebrow">A LITTLE SOMETHING FOR YOU</p><h2 id="paymentTitle">Checkout <em>MYNJU</em></h2></div><button type="button" id="paymentClose" aria-label="Tutup checkout">×</button></div>
+    <form id="checkoutForm">
+      <div class="checkout-fields">
+        <label>Nama lengkap<input id="customerName" required autocomplete="name" placeholder="Nama penerima"></label>
+        <label>Nomor WhatsApp<input id="customerPhone" required inputmode="tel" autocomplete="tel" placeholder="08xxxxxxxxxx"></label>
+        <label class="full-field">Alamat pengiriman<textarea id="customerAddress" required autocomplete="street-address" placeholder="Alamat lengkap, kecamatan, kota, kode pos"></textarea></label>
+        <label class="full-field">Catatan pesanan (opsional)<textarea id="customerNotes" placeholder="Warna/ukuran atau catatan tambahan"></textarea></label>
       </div>
-
-      <div class="hero-art reveal">
-        <div class="sticker sticker-top">made with ♡</div>
-        <div class="profile-photo-card">
-          <picture>
-          <source srcset="assets/profile.webp" type="image/webp">
-          <img class="profile-photo" src="assets/profile.jpg" alt="Foto profil Yasmin" width="800" height="450" fetchpriority="high">
-        </picture>
-          <div class="photo-caption">a little piece of my world ✦</div>
-        </div>
-        <div class="floating flower">✿</div>
-        <div class="floating star">✦</div>
+      <div class="payment-methods">
+        <p class="payment-label">Pilih metode pembayaran</p>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="manual_qris" checked><span><strong>QRIS manual</strong><small>Instruksi dan QRIS milik toko akan ditampilkan setelah konfirmasi.</small></span></label>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="manual_transfer"><span><strong>Transfer bank / e-wallet</strong><small>Detail rekening atau nomor e-wallet perlu diatur pemilik toko.</small></span></label>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="gateway"><span><strong>Pembayaran online otomatis</strong><small>Melalui Midtrans. Pemilik toko perlu mengatur kredensial Sandbox/Production.</small></span></label>
       </div>
-    </section>
+      <div class="payment-total"><span>Total pesanan</span><strong id="checkoutTotal">Rp0</strong></div>
+      <p class="payment-note" id="paymentNote">Pembayaran manual akan dikonfirmasi melalui WhatsApp. Jangan mengirim pembayaran sebelum menerima instruksi resmi toko.</p>
+      <button class="checkout-submit" type="submit" id="checkoutSubmit">Lanjutkan Pesanan ♡</button>
+      <p class="checkout-status" id="checkoutStatus" role="status"></p>
+    </form>
+  </section>
+</div>
 
-    <section class="marquee-band" aria-label="Interests">
-      <div class="marquee">
-        <span>DESIGN</span><b>✦</b><span>WEB</span><b>✦</b><span>CREATIVE</span><b>✦</b><span>LEARNING</span><b>✦</b>
-        <span>DESIGN</span><b>✦</b><span>WEB</span><b>✦</b><span>CREATIVE</span><b>✦</b><span>LEARNING</span><b>✦</b>
+<div class="toast" id="toast"></div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <section class="cart-panel" role="dialog" aria-label="Shopping bag">
+    <div class="cart-head">
+      <div><span class="eyebrow">MYNJU</span><h2>Your Bag <span id="cartHeaderCount">(0)</span></h2></div>
+      <button class="cart-close" id="cartClose">×</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">Your MYNJU bag is waiting for something cute 🎀</div>
+    </div>
+    <div class="cart-summary">
+      <div><span>Subtotal</span><strong id="cartTotal">Rp0</strong></div>
+      <button class="cart-wa" id="cartCheckout">Checkout &amp; Pembayaran ♡</button>
+      <button class="cart-wa cart-wa-secondary" id="cartWhatsApp">Pesan langsung via WhatsApp</button>
+    </div>
+  </section>
+</aside>
+
+<!-- ADMIN PANEL (hidden by default) -->
+<div id="adminOverlay" class="admin-overlay" style="display:none;">
+  <div class="admin-panel">
+    <div class="admin-header">
+      <h2>MYNJU Admin</h2>
+      <button id="adminClose">×</button>
+    </div>
+    <div id="adminLogin">
+      <p>Masukkan password admin</p>
+      <input type="password" id="adminPassword" placeholder="Password">
+      <button id="adminLoginBtn">Login</button>
+      <p id="loginError" class="error"></p>
+    </div>
+    <div id="adminDashboard" style="display:none;">
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="products">Products</button>
+        <button class="admin-tab" data-tab="orders">Orders</button>
       </div>
-    </section>
-
-    <section id="about" class="section about">
-      <div class="section-label reveal">01 / ABOUT ME</div>
-      <div class="about-grid">
-        <div class="about-title reveal">
-          <p class="tiny-label">A LITTLE STORY</p>
-          <h2>Hi, I'm <span>Yasmin.</span></h2>
-        </div>
-        <div class="about-copy reveal">
-          <p>I'm a student who enjoys exploring the creative side of technology. From making websites and small digital projects to experimenting with visual ideas, I like learning by actually building things.</p>
-          <p>My goal isn't to make everything perfect on the first try. It's to keep growing, stay curious, and create something I'm proud of.</p>
-          <div class="fact-row">
-            <div><strong>01</strong><span>Creative<br>projects</span></div>
-            <div><strong>02</strong><span>Always<br>learning</span></div>
-            <div><strong>03</strong><span>Big<br>dreams</span></div>
-          </div>
-        </div>
+      <div id="tab-products" class="admin-tab-content">
+        <h3>Kelola Produk</h3>
+        <form id="productForm">
+          <input type="hidden" id="prodId">
+          <input type="text" id="prodName" placeholder="Nama Produk" required>
+          <select id="prodCategory" required>
+            <option value="tunik">Tunik</option>
+            <option value="abaya">Abaya</option>
+            <option value="dress">Dress</option>
+            <option value="rok">Rok</option>
+            <option value="blouse">Blouse</option>
+            <option value="kemeja">Kemeja</option>
+            <option value="outer">Outer / Cardigan</option>
+            <option value="setelan">Setelan matching</option>
+            <option value="top">Top</option>
+            <option value="skirt">Skirt</option>
+            <option value="other">Lainnya</option>
+          </select>
+          <input type="number" id="prodPrice" placeholder="Harga (angka, misal 189000)" required>
+          <input type="text" id="prodDisplayPrice" placeholder="Display (misal Rp 289K)">
+          <input type="text" id="prodImage" placeholder="URL Gambar atau nama file">
+          <input type="text" id="prodBadge" placeholder="Badge (NEW, BEST SELLER, kosong)">
+          <input type="text" id="prodCollection" placeholder="Collection">
+          <label><input type="checkbox" id="prodIsNew"> New Arrival</label>
+          <label><input type="checkbox" id="prodActive" checked> Active</label>
+          <textarea id="prodDesc" placeholder="Deskripsi singkat"></textarea>
+          <button type="submit">Simpan Produk</button>
+          <button type="button" id="prodReset">Reset Form</button>
+        </form>
+        <div id="productList" class="admin-list"></div>
       </div>
-    </section>
-
-    <section id="works" class="section works">
-      <div class="section-head reveal">
-        <div><div class="section-label">02 / SELECTED WORKS</div><h2>Things I've <span>made.</span></h2></div>
-        <p>A little collection of projects, experiments, and ideas I've enjoyed bringing to life.</p>
+      <div id="tab-orders" class="admin-tab-content" style="display:none;">
+        <h3>Pesanan Masuk</h3>
+        <p class="admin-hint">Periksa detail pembeli, ubah status tindak lanjut, lalu simpan perubahan.</p>
+        <div class="order-status-summary" id="orderStatusSummary"></div>
+        <div id="orderList" class="admin-list"></div>
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="project-grid">
-        <article class="project-card project-green reveal" data-url="https://yasminindira.github.io/mynju/" tabindex="0" role="link">
-          <div class="project-visual">
-            <span class="project-number">01</span>
-            <div class="mock-window">
-              <div class="mock-top"><i></i><i></i><i></i></div>
-              <div class="mock-content"><span>MYNJU</span><b>style<br>that feels<br>like you.</b><small>SHOP NOW ↗</small></div>
-            </div>
-          </div>
-          <div class="project-info"><div><span>WEB DESIGN</span><h3>MYNJU Boutique</h3></div><a href="https://yasminindira.github.io/mynju/" target="_blank" rel="noopener noreferrer" aria-label="Open MYNJU Boutique">↗</a></div>
-        </article>
-
-        <article class="project-card project-pink reveal" data-url="https://yasminindira.github.io/sistemtubuh/" tabindex="0" role="link">
-          <div class="project-visual">
-            <span class="project-number">02</span>
-            <div class="phone-mock">
-              <div class="phone-top">MED<span>SIM</span></div>
-              <div class="case-pill">CASE 04</div><b>Patient<br>Case Simulator</b>
-              <div class="progress"><i></i></div>
-              <small>DIAGNOSIS MODE</small>
-            </div>
-          </div>
-          <div class="project-info"><div><span>WEB APP</span><h3>Medical Case Simulator</h3></div><a href="https://yasminindira.github.io/sistemtubuh/" target="_blank" rel="noopener noreferrer" aria-label="Open Medical Case Simulator">↗</a></div>
-        </article>
-
-        <article class="project-card project-yellow reveal" data-url="https://yasminindira.github.io/humann/" tabindex="0" role="link">
-          <div class="project-visual">
-            <span class="project-number">03</span>
-            <div class="human-card"><div class="human-orbit">✦</div><div class="human-icon">♡</div><strong>HUMAN</strong><small>BODY EXPLORER</small></div>
-          </div>
-          <div class="project-info"><div><span>EDUCATIONAL</span><h3>Human Body Explorer</h3></div><a href="https://yasminindira.github.io/humann/" target="_blank" rel="noopener noreferrer" aria-label="Open Human Body Explorer">↗</a></div>
-        </article>
-
-        <article class="project-card project-brown reveal" data-url="https://yasminindira.github.io/masjidaljabar3/" tabindex="0" role="link">
-          <div class="project-visual">
-            <span class="project-number">04</span>
-            <div class="mosque-card"><div>☾</div><strong>AL JABAR</strong><small>PRAYER TIME</small><em>12 : 08 : 44</em></div>
-          </div>
-          <div class="project-info"><div><span>WEB APP</span><h3>Al Jabar Display</h3></div><a href="https://yasminindira.github.io/masjidaljabar3/" target="_blank" rel="noopener noreferrer" aria-label="Open Al Jabar Display">↗</a></div>
-        </article>
-
-        <article class="project-card project-chess reveal" data-url="https://yasminindira.github.io/caturjawa/" tabindex="0" role="link">
-          <div class="project-visual">
-            <span class="project-number">05</span>
-            <div class="chess-board">
-              <div>♜</div><div>♞</div><div>♝</div><div>♛</div><div>♚</div><div>♝</div><div>♞</div><div>♜</div>
-              <div>♟</div><div>♟</div><div>♟</div><div>♟</div><div>♟</div><div>♟</div><div>♟</div><div>♟</div>
-              <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-              <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-              <div></div><div></div><div></div><div>♟</div><div></div><div></div><div></div><div></div>
-              <div></div><div></div><div></div><div></div><div>♙</div><div></div><div></div><div></div>
-              <div>♙</div><div>♙</div><div>♙</div><div></div><div>♙</div><div>♙</div><div>♙</div><div>♙</div>
-              <div>♖</div><div>♘</div><div>♗</div><div>♕</div><div>♔</div><div>♗</div><div>♘</div><div>♖</div>
-            </div>
-            <div class="chess-label">CATUR JAWA<br><small>GAME PROJECT ↗</small></div>
-          </div>
-          <div class="project-info"><div><span>GAME</span><h3>Catur Jawa</h3></div><a href="https://yasminindira.github.io/caturjawa/" target="_blank" rel="noopener noreferrer" aria-label="Open Catur Jawa">↗</a></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section skills">
-      <div class="section-label reveal">03 / MY TOOLBOX</div>
-      <div class="skills-grid">
-        <div class="skills-intro reveal"><h2>Things I<br><em>love to use.</em></h2><p>Tools are just tools—but the fun part is figuring out what you can create with them.</p></div>
-        <div class="skill-list reveal">
-          <div class="skill"><span>01</span><div><h3>HTML / CSS</h3><p>Responsive layouts & visual styling</p></div><b>↗</b></div>
-          <div class="skill"><span>02</span><div><h3>JavaScript</h3><p>Interactive web experiences</p></div><b>↗</b></div>
-          <div class="skill"><span>03</span><div><h3>UI / Visual Design</h3><p>Color, composition & creative direction</p></div><b>↗</b></div>
-          <div class="skill"><span>04</span><div><h3>Creative Thinking</h3><p>Ideas, concepts & problem solving</p></div><b>↗</b></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="journey" class="section journey">
-      <div class="section-head reveal"><div><div class="section-label">04 / MY JOURNEY</div><h2>Still becoming <span>me.</span></h2></div></div>
-      <div class="timeline">
-        <div class="timeline-item reveal"><span>NOW</span><div><h3>Exploring & building</h3><p>Learning web development, visual design, and creating projects that mix technology with creativity.</p></div><i>✦</i></div>
-        <div class="timeline-item reveal"><span>NEXT</span><div><h3>Grow bigger</h3><p>Keep collecting experiences, joining challenges, and turning more ideas into real projects.</p></div><i>♡</i></div>
-        <div class="timeline-item reveal"><span>DREAM</span><div><h3>Make an impact</h3><p>Build meaningful things, keep learning, and make my family proud along the way.</p></div><i>✿</i></div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact section reveal">
-      <div class="contact-deco">✦</div>
-      <div class="section-label">05 / SAY HELLO</div>
-      <h2>Have an idea?<br><em>Let's make it real.</em></h2>
-      <p>Whether it's a project, collaboration, or just a friendly hello—my inbox is open.</p>
-      <a class="btn btn-light" href="mailto:hello@yasmin-portfolio.com">hello@yasmin-portfolio.com ↗</a>
-    </section>
-  </main>
-
-  <footer>
-    <div><a class="brand" href="#home"><span>Y</span> yasmin.</a><p>Made with curiosity & a little bit of chaos.</p></div>
-    <div class="footer-right"><span>© 2026 Yasmin</span><a href="#home">Back to top ↑</a></div>
-  </footer>
-
-  <script src="script.js" defer></script>
+<script src="script.js"></script>
 </body>
 </html>

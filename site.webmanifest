@@ -1,15 +1,16 @@
 {
-  "name": "Yasmin — Creative Portfolio",
-  "short_name": "Yasmin",
+  "name": "MYNJU",
+  "short_name": "MYNJU",
+  "description": "Cute looks, made for you",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fff8ec",
-  "theme_color": "#4a3025",
+  "background_color": "#ffffff",
+  "theme_color": "#FF69B4",
   "icons": [
     {
-      "src": "/assets/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }

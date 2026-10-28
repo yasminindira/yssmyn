@@ -1,6 +1,4 @@
-# robots.txt for https://yssmyn.my.id/
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://yssmyn.my.id/sitemap.xml
+Sitemap: https://minjuuu.yssmyn.my.id/sitemap.xml
